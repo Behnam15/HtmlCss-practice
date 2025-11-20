@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #181818;
+}
+
+.header {
+  background-color: black;
+  height: 50px;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-right: 15px;
+  text-align: center;
+}
+.login {
+  position: fixed;
+  border: 1px solid white;
+  text-align: center;
+  margin-right: 15px;
+  padding: 7px 17px 3px 23px;
+  margin-top: 5px;
+  right: 0;
+}
+.sign {
+  position: fixed;
+  border: 1px solid red;
+  border-radius: 4px;
+  text-align: center;
+  background-color: red;
+  padding: 7px 17px 3px 23px;
+  margin-top: 5px;
+  right: 90px;
+}
+.filter {
+  position: fixed;
+  border: 1px solid white;
+  margin-left: 15px;
+  text-align: center;
+  padding: 7px 17px 3px 23px;
+  margin-top: 5px;
+  left: 0;
+}
+.body {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  margin-bottom: 100px;
+}
+span {
+  display: block;
+  color: white;
+  margin-top: 3px;
+}
