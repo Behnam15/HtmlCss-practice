@@ -1,0 +1,85 @@
+body {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 350px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  padding: 32px 28px 24px 28px;
+  direction: rtl;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222f3e;
+  font-size: 1.5rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-form label {
+  font-size: 1rem;
+  color: #576574;
+  margin-bottom: 6px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 10px 12px;
+  border: 1px solid #d1d8e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f7f7f7;
+  transition: border 0.2s;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  border: 1.5px solid #0097e6;
+  outline: none;
+}
+
+.login-form button {
+  background: linear-gradient(90deg, #0097e6 60%, #00b894 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.login-form button:hover {
+  background: linear-gradient(90deg, #00b894 60%, #0097e6 100%);
+}
+
+.login-form .login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login-form .login-links a {
+  color: #0097e6;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.login-form .login-links a:hover {
+  color: #00b894;
+}
