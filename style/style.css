@@ -10,7 +10,41 @@ body {
   height: 50px;
   padding-top: 7px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+.heder_item-1 {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 13px;
+  color: aliceblue;
+}
+.heder_item-2 {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 13px;
+  color: aliceblue;
+}
+.header_item-3 {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 13px;
+  color: aliceblue;
+}
+.body_top {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  font-weight: 10px;
+  color: aliceblue;
+  margin-right: 25px;
+  margin-bottom: 10.2rem;
+  text-align: center;
+}
+.body_top h2 {
+  font-size: 35px;
+  margin: 33px;
+  padding: 25px;
+}
+.body_top p {
+  font-size: 1.8rem;
 }
 img {
   width: 200px;

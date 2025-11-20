@@ -1,18 +1,19 @@
 body {
   font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
-  background: #f5f6fa;
+  background: #abebc6;
   margin: 0;
   padding: 0;
 }
 
 .login-container {
-  max-width: 350px;
+  max-width: 650px;
   margin: 60px auto;
-  background: #fff;
+  background: #e6fcff;
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   padding: 32px 28px 24px 28px;
   direction: rtl;
+  height: 550px;
 }
 
 .login-container h2 {
@@ -20,6 +21,7 @@ body {
   margin-bottom: 24px;
   color: #222f3e;
   font-size: 1.5rem;
+  margin-bottom: 40px;
 }
 
 .login-form {
@@ -39,9 +41,10 @@ body {
   padding: 10px 12px;
   border: 1px solid #d1d8e0;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background: #f7f7f7;
   transition: border 0.2s;
+  margin-right: 20px;
 }
 
 .login-form input[type="text"]:focus,
@@ -59,10 +62,9 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 130px;
   transition: background 0.2s;
 }
-
 .login-form button:hover {
   background: linear-gradient(90deg, #00b894 60%, #0097e6 100%);
 }
@@ -70,7 +72,7 @@ body {
 .login-form .login-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .login-form .login-links a {
