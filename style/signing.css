@@ -1,0 +1,71 @@
+body {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  background: #abebc6;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 650px;
+  background-color: #e6fcff;
+  position: fixed;
+  /* center tarfand*/
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  /* finish*/
+  margin-top: 100px;
+  height: 500px;
+  border-radius: 10px;
+}
+.form h1 {
+  text-align: center;
+  margin-bottom: 5.8rem;
+  font-weight: 400;
+  color: #222f3e;
+}
+.signing {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.signing label {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #9d9490;
+  padding-right: 1.2rem;
+}
+.signing input {
+  width: 16rem;
+  height: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1.5px solid #0097e6;
+  outline: none;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+.signing button {
+  font-size: 1rem;
+  width: 90%;
+  height: 2.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 1.5px solid;
+  background: linear-gradient(90deg, #0097e6 60%, #00b894 100%);
+  color: #fff;
+}
+.link {
+  margin-top: 80px;
+  margin-right: 35px;
+}
+.link a {
+  text-decoration: none;
+  color: #0097e6;
+  font-size: 0.95rem;
+}

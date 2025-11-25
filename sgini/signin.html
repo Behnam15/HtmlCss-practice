@@ -1,9 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sign in</title>
+    <link rel="stylesheet" href="../style/signing.css" />
+    <link
+      rel="website icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpVa6jcQPDafFfQ6rk0hV9EG9pyVA3EAy0m1HGmizghTAn5E-xgTN-RzFS1dpQc5tLvo&usqp=CAU"
+    />
+    <title>ثبت نام</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>ثبت نام</h1>
+        <form class="signing">
+          <div>
+            <label for="user">نام کاربری</label>
+            <input type="text" placeholder="نام کاربری" id="user" required />
+          </div>
+          <div>
+            <label for="brith_day">سال تولد</label>
+            <input type="date" id="brith_day" placeholder="سال تولد" required />
+          </div>
+          <div>
+            <label for="password">رمزعبور</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="رمز عبور"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">ثبت نام</button>
+          </div>
+          <div class="link">
+            <a href="../sgini/login.html">ورود</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
